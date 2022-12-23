@@ -1,0 +1,70 @@
+.movie-container {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin: auto;
+    display: flex;
+    min-height: 694px;
+    flex-direction: column;
+    
+}
+.movie-items {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.list-m {
+    text-align: center;
+    margin: 100px 0 50px;
+    color:rgb(252, 67, 67);
+    
+}
+.big-show:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .20s;
+}
+.add-items {
+    margin: 30px 500px;
+}
+.Home-container {
+    background-color: rgb(19, 19, 19);
+    /*background-image: url(https://media.istockphoto.com/id/1338124780/vector/for-halloween-and-horror-designs-spider-web-black-background.jpg?s=612x612&w=0&k=20&c=_0tXPdbSyz6nE6S4NnhLSakmitjk-P-QAenjkHpIE_I=);*/
+    background-size: cover;
+    color: rgb(252, 67, 67);
+    text-align: center;
+    text-decoration:dotted;   
+    min-height: 698px;
+    padding-top: 20%;
+    
+}
+.footer {
+    text-align: center;
+    color: gray;
+    background-color: rgb(19, 19, 19);
+     background-size: cover;
+    
+    padding: 50px 0px 5px;
+}
+.link{
+    color: grey;
+}
+.Error-page {
+    text-align: center;
+    padding-top: 20%;
+}
+.Watch-container {
+    background-color: rgb(19, 19, 19);
+}
+.Watch-movie {
+    border: 1px rgb(252, 67, 67) solid;
+    min-height: 694px;
+    width: 800px;
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}

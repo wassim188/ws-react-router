@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import "./App.css";
+import Navmain from "./components/Navmain";
+import WaykList from "./components/WayList";
+import { data } from "./data";
+import {Routes,Route} from "react-router-dom"
+import ErrorPage from "./components/ErrorPage"
+import Layout from "./Layout";
+import HomePage from "./components/HomePage";
+import WatchPage from "./components/WatchPage";
 function App() {
+  const [search, setSearch] = useState("");
+  const [rating, setRating] = useState(0);
+  const [movie, setMovie] = useState(data);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout/>} >
+        <Route path="home" element={<HomePage />}/>
+      <Route path="Movie"
+            element={<WaykList
+              setMovie={setMovie}
+              rating={rating}
+              data={movie}
+              search={search}
+            />}
+            />
+            <Route path="product/:id" element={<WatchPage/>}/>
+      </Route>
+      <Route path="*" element={<ErrorPage/>} />
+    </Routes>     
+    
   );
 }
 
