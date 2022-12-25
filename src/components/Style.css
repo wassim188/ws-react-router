@@ -1,5 +1,6 @@
 .movie-container {
     background-color: rgb(19, 19, 19);
+    background-size: contain;
     color: white;
     margin: auto;
     display: flex;
@@ -32,14 +33,19 @@
 }
 .Home-container {
     background-color: rgb(19, 19, 19);
-    /*background-image: url(https://media.istockphoto.com/id/1338124780/vector/for-halloween-and-horror-designs-spider-web-black-background.jpg?s=612x612&w=0&k=20&c=_0tXPdbSyz6nE6S4NnhLSakmitjk-P-QAenjkHpIE_I=);*/
+    background-image: url(https://i.pinimg.com/originals/46/13/5f/46135f17d26bbcd24eb8efe9d43fbb2f.gif);
     background-size: cover;
-    color: rgb(252, 67, 67);
+    color: rgba(68, 68, 68, 0.705);
     text-align: center;
     text-decoration:dotted;   
     min-height: 698px;
     padding-top: 20%;
+
     
+}
+.continue-home {
+    font-size: 100px;
+    font-weight: bolder;
 }
 .footer {
     text-align: center;
@@ -58,13 +64,13 @@
 }
 .Watch-container {
     background-color: rgb(19, 19, 19);
+    background-image: url(https://i.pinimg.com/originals/33/50/88/3350885f41f35cbb60a538dec310a4c2.gif);
 }
 .Watch-movie {
-    border: 1px rgb(252, 67, 67) solid;
-    min-height: 694px;
-    width: 800px;
+    min-height: 494px;
+    width: 300px;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
     color: white;
 }

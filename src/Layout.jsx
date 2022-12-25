@@ -1,12 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Navmain from './components/Navmain'
 import {Outlet} from "react-router"
-import WayList from './components/WayList';
-import { data } from "./data";
 import Footer from './components/Footer';
-function Layout() {
-    const [search, setSearch] = useState("");
-    const [rating, setRating] = useState(0);
+function Layout({setSearch,setRating}) {
   return (
     <div>
       <Navmain setRating={setRating} setSearch={setSearch} />

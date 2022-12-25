@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "5001",
-    src: "https://www.youtube.com/watch?v=KPLWWIOCOOQ&t=17s",
+    src: "The series follows several simultaneous plot lines.[7] The first story arc follows a war of succession among competing claimants for control of the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from the throne. The second concerns the exiled scion's actions to reclaim the throne; the third chronicles the threat of the impending winter, as well as the legendary creatures and fierce peoples of the North.[8]",
     title: "Game Of Thrones",
     img: "https://fr.web.img6.acsta.net/pictures/19/03/21/17/05/1927893.jpg",
     category: "fantasy drama",
@@ -11,7 +11,7 @@ export const data = [
   },
   {
     id: "5002",
-    src: "https://youtu.be/1JLUn2DFW4w?t=3",
+    src: "Initially making only small batches of meth with his former student Jesse Pinkman in a rolling meth lab, Walter and Jesse eventually expand to make larger batches of special blue meth that is incredibly pure and creates high demand. Walter takes on the name 'Heisenberg' to mask his identity",
     title: "Breaking Bad",
     img: "https://fr.web.img5.acsta.net/pictures/19/06/18/12/11/3956503.jpg",
     category: "crime drama",
@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: "5003",
-    src: "https://youtu.be/RO3Qp_XdR0w?t=10",
+    src: "The series is set in the fictional town of Mystic Falls, Virginia, a town charged with supernatural history. It follows the life of Elena Gilbert (Nina Dobrev), a teenage girl who has just lost both parents in a car accident, as she falls in love with a 162-year-old vampire named Stefan Salvatore (Paul Wesley).",
     title: "The Vampire Diaries",
     img: "https://flxt.tmsimg.com/assets/p8182631_b1t_v9_aa.jpg",
     category: "comedy drama teen",
@@ -31,7 +31,7 @@ export const data = [
   },
   {
     id: "5004",
-    src: "https://youtu.be/7XEQqaV_dTM?t=29",
+    src: "The Originals centers on the Mikealson siblings. The Mikealsons return to New Orleans to get back the city they helped build. When Klaus founds out that Hayley is expecting a child, he will do anything to protect his unborn child against his enemies. 'Always and forever'.",
     title: "The Originals",
     img: "https://m.media-amazon.com/images/M/MV5BNDllZjc2NjEtOGMwZS00ZmNkLTg2NDgtZjJkYjg0YjMxM2FmXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_.jpg",
     category: "fantasy-drama",
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: "5005",
-    src: "https://youtu.be/xHHM5VTATJo?t=4",
+    src: "Legacies follows Hope Mikaelson, the daughter of Klaus Mikaelson and Hayley Marshall, who is descended from some of the most powerful vampire, werewolf, and witch bloodlines. Two years after the events of The Originals, 17-year-old Hope attends the Salvatore School for the Young and Gifted.",
     title: "Legacies",
     img: "https://fr.web.img6.acsta.net/pictures/21/08/30/17/35/5936439.jpg",
     category: "fantasy-drama",
@@ -51,7 +51,7 @@ export const data = [
   },
   {
     id: "5006",
-    src: "https://youtu.be/LV5B0BLaII8?t=7",
+    src: "Plot. A fictionalised story based on historical persons, the series explores the early life of Leonardo da Vinci during the Renaissance in Italy. He is an eccentric genius who has struggled to deal with his inner demons and unruly imagination, as he yearns for acceptance from his estranged father.",
     title: "Da Vinci's Demons",
     img: "https://m.media-amazon.com/images/M/MV5BYzA5YjY2ZmUtODliNS00ZjhlLTkwZjItODNmYzQ3MDc0YThlXkEyXkFqcGdeQXVyOTQxNzM2MjY@._V1_.jpg",
     category: "historical fantasy",
@@ -61,7 +61,7 @@ export const data = [
   },
   {
     id: "5007",
-    src: "https://youtu.be/9GgxinPwAGc?t=4",
+    src: "The show portrays Ragnar as a farmer who rises to fame by successful raids into England, and eventually becomes a Scandinavian King, with the support of his family and fellow warriors. In the later seasons, the series follows the fortunes of his sons and their adventures in England, Scandinavia and the Mediterranean.",
     title: "Vikings",
     img: "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
     category: "historical fantasy",
@@ -71,7 +71,7 @@ export const data = [
   },
   {
     id: "5008",
-    src: "https://youtu.be/siNr47WV0Wk?t=2",
+    src: "A story of people who fail at life for various reasons, but suddenly receive a mysterious invitation to participate in a survival game to win more than 38 million US dollars. The game takes place at an isolated island and the participants are locked up until there is a final winner.",
     title: "Squid Game",
     img: "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
     category: "historical fantasy",
@@ -81,7 +81,7 @@ export const data = [
   },
   {
     id: "5009",
-    src: "https://youtu.be/cqpHzeGBsBc?t=2",
+    src: "It follows a group of survivors, led by former police officer Rick Grimes, who travel in search of a safe and secure home. As the world overrun by the dead takes its toll on the survivors, their interpersonal conflicts present a greater danger to their continuing survival than the walkers that roam the country.",
     title: "The Walking Dad",
     img: "https://m.media-amazon.com/images/M/MV5BZmU5NTcwNjktODIwMi00ZmZkLTk4ZWUtYzVjZWQ5ZTZjN2RlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR83,0,630,1200_AL_.jpg",
     category: "historical fantasy",
@@ -91,7 +91,7 @@ export const data = [
   },
   {
     id: "5010",
-    src: "https://youtu.be/Ew9ngL1GZvs?t=2",
+    src: "En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.",
     title: "The Godfather",
     img: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
     category: "fantasy-drama",
@@ -101,7 +101,7 @@ export const data = [
   },
   {
     id: "5011",
-    src: "https://youtu.be/VQaFKClCUpo?t=2",
+    src: "Set 97 years after a nuclear war destroyed civilization, when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents back to Earth, hoping to repopulate the planet. The series is set 97 years after a devastating nuclear war wiped out almost all life on Earth.",
     title: "The 100",
     img: "https://m.media-amazon.com/images/I/51LYrVg7iRL._AC_SY445_.jpg",
     category: "fantasy-drama",
@@ -111,7 +111,7 @@ export const data = [
   },
   {
     id: "5012",
-    src: "https://youtu.be/ndl1W4ltcmg?t=5",
+    src: "The Witcher follows the story of Geralt of Rivia, a solitary monster hunter, who struggles to find his place in a world where people often prove more wicked than monsters and beasts.",
     title: "The Witcher",
     img: "https://image.api.playstation.com/vulcan/ap/rnd/202211/0714/S1jCzktWD7XJSRkz4kNYNVM0.png",
     category: "fantasy-drama",

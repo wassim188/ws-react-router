@@ -11,16 +11,13 @@ function WatchPage() {
     <div className="Watch-container">
       <div className="Watch-movie">
         <Card className="bg-dark text-white">
-          <Card.Img src={product.img} alt="Card image" />
-          <Card.ImgOverlay>
-            <Card.Title>{product.title}</Card.Title>
+          <Card.Img variant="top" src={product.img} />
+          <Card.Body>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <h3>Plot</h3>
+              {product.src}
             </Card.Text>
-            <Card.Text>Last updated 3 mins ago</Card.Text>
-          </Card.ImgOverlay>
+          </Card.Body>
         </Card>
       </div>
     </div>

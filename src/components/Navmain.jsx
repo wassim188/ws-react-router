@@ -25,7 +25,7 @@ function Navmain({ setSearch, setRating }) {
             Movies Way
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="home" className="link">Home</Link>
+            <Link to="/" className="link">Home</Link>
             
           </Nav>
           <Nav className="me-auto">

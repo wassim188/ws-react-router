@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import Navmain from "./components/Navmain";
-import WaykList from "./components/WayList";
+import WayList from "./components/WayList";
 import { data } from "./data";
-import {Routes,Route} from "react-router-dom"
-import ErrorPage from "./components/ErrorPage"
+import {Routes,Route} from "react-router-dom";
 import Layout from "./Layout";
 import HomePage from "./components/HomePage";
 import WatchPage from "./components/WatchPage";
@@ -14,21 +12,25 @@ function App() {
   const [movie, setMovie] = useState(data);
   return (
     <Routes>
-      <Route path="/" element={<Layout/>} >
-        <Route path="home" element={<HomePage />}/>
-      <Route path="Movie"
-            element={<WaykList
+      <Route
+        path="/"
+        element={<Layout setRating={setRating} setSearch={setSearch} />}
+      >
+        <Route index element={<HomePage />} />
+        <Route
+          path="Movie"
+          element={
+            <WayList
               setMovie={setMovie}
               rating={rating}
               data={movie}
               search={search}
-            />}
             />
-            <Route path="product/:id" element={<WatchPage/>}/>
+          }
+        />
+        <Route path="product/:id" element={<WatchPage />} />
       </Route>
-      <Route path="*" element={<ErrorPage/>} />
-    </Routes>     
-    
+    </Routes>
   );
 }
 

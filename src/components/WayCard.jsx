@@ -18,7 +18,7 @@ function WayCard({ title, img, category, rate, cast, date,id, }) {
           <Card.Subtitle>Date: {date}</Card.Subtitle>
           <br />
           <Button variant="danger">
-            <Link to={`/product/${id}`}>Watch</Link>
+            <Link to={`/product/${id}`}>Ditails</Link>
           </Button>
         </Card.Body>
       </Card>
