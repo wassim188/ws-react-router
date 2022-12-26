@@ -1,12 +1,12 @@
 .movie-container {
-    background-color: rgb(19, 19, 19);
-    background-size: contain;
-    color: white;
+   
     margin: auto;
     display: flex;
     min-height: 694px;
     flex-direction: column;
-    
+    background-color: rgb(36, 0, 36);
+    text-align: center;
+
 }
 .movie-items {
     justify-content: center;
@@ -15,27 +15,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
-}
-
-.list-m {
-    text-align: center;
-    margin: 100px 0 50px;
-    color:rgb(252, 67, 67);
-    
-}
-.big-show:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: .20s;
-}
-.add-items {
-    margin: 30px 500px;
+    background-color: rgb(36, 0, 36);
 }
 .Home-container {
-    background-color: rgb(19, 19, 19);
-    background-image: url(https://i.pinimg.com/originals/46/13/5f/46135f17d26bbcd24eb8efe9d43fbb2f.gif);
+    background-image: url(https://i.pinimg.com/564x/1a/7b/32/1a7b326d22f3c2e4bdd7aae09c85789e.jpg);
     background-size: cover;
-    color: rgba(68, 68, 68, 0.705);
+    color: rgba(248, 240, 196, 0.705);
     text-align: center;
     text-decoration:dotted;   
     min-height: 698px;
@@ -47,30 +32,22 @@
     font-size: 100px;
     font-weight: bolder;
 }
-.footer {
-    text-align: center;
-    color: gray;
-    background-color: rgb(19, 19, 19);
-     background-size: cover;
-    
-    padding: 50px 0px 5px;
-}
-.link{
-    color: grey;
-}
-.Error-page {
-    text-align: center;
-    padding-top: 20%;
-}
 .Watch-container {
-    background-color: rgb(19, 19, 19);
-    background-image: url(https://i.pinimg.com/originals/33/50/88/3350885f41f35cbb60a538dec310a4c2.gif);
+    background-color: rgb(36, 0, 36);
 }
 .Watch-movie {
     min-height: 494px;
-    width: 300px;
+    max-width: 400px;
     margin: auto;
     padding-top: 100px;
     text-align: center;
     color: white;
+}
+.footer {
+    text-align: center;
+    color: gray;
+    background-color: rgb(36, 0, 36);
+     background-size: cover;
+    
+    padding: 50px 0px 5px;
 }

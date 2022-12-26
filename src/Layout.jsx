@@ -1,8 +1,9 @@
-import React from 'react'
-import Navmain from './components/Navmain'
-import {Outlet} from "react-router"
-import Footer from './components/Footer';
-function Layout({setSearch,setRating}) {
+
+import React from "react";
+import Navmain from "./components/Navmain";
+import { Outlet } from "react-router";
+import Footer from "./components/Footer";
+function Layout({ setSearch, setRating }) {
   return (
     <div>
       <Navmain setRating={setRating} setSearch={setSearch} />
@@ -12,4 +13,4 @@ function Layout({setSearch,setRating}) {
   );
 }
 
-export default Layout
+export default Layout;
