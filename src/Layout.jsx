@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navmain from "./components/Navmain";
 import { Outlet } from "react-router";

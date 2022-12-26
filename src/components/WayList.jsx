@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import CardList from "./CardList";
+import WayCard from "./WayCard";
 import "./Style.css";
 import { Button, Modal, Form } from "react-bootstrap";
-function MovieListe({ data, search, rating, setMovie }) {
+function WayList({ data, search, rating, setMovie }) {
   const [show, setShow] = useState(false);
   const [newMovie, setNewMovie] = useState({});
 
@@ -18,7 +18,7 @@ function MovieListe({ data, search, rating, setMovie }) {
   };
   return (
     <div className="movie-container">
-      <h1 className="list-m">アニメ一覧</h1>
+      <h1 className="list-m">Movie List</h1>
       <Button
         className="add-items"
         variant="outline-danger"
@@ -32,10 +32,11 @@ function MovieListe({ data, search, rating, setMovie }) {
             elt.title.toLowerCase().includes(search.toLowerCase())
           )
           .filter((elt) => (rating ? elt.rate == rating : elt))
-          .map((Anime) => (
-            <CardList {...Anime} />
+          .map((book) => (
+            <WayCard {...book} />
           ))}
       </div>
+
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className="bg-dark text-white">
           <Modal.Title>Modal heading</Modal.Title>
@@ -43,22 +44,33 @@ function MovieListe({ data, search, rating, setMovie }) {
         <Modal.Body className="bg-dark text-white">
           <Form onChange={(e) => handleChange(e)}>
             <Form.Group className="mb-3">
-              <Form.Label>Anime Title</Form.Label>
-              <Form.Control placeholder="Anime Title" name="title" />
+              <Form.Label>Movie Title</Form.Label>
+              <Form.Control placeholder="Movie Title" name="title" />
               <Form.Text className="text-muted">
-                We'll never share your Anime with anyone else.
+                We'll never share your Movie with anyone else.
               </Form.Text>
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Label>Anime Poster</Form.Label>
+              <Form.Label>Movie Poster</Form.Label>
               <Form.Control
                 placeholder="paste your poster link here"
                 name="img"
               />
             </Form.Group>
             <Form.Group className="mb-3">
+              <Form.Label>Category</Form.Label>
+              <Form.Control
+                placeholder="set the category here"
+                name="category"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
               <Form.Label>Rate</Form.Label>
               <Form.Control name="rate" />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Cast</Form.Label>
+              <Form.Control placeholder="movie's cast" name="cast" />
             </Form.Group>
             <Form.Label>Release Date</Form.Label>
             <Form.Control type="date" name="date" autoFocus />
@@ -77,4 +89,4 @@ function MovieListe({ data, search, rating, setMovie }) {
   );
 }
 
-export default MovieListe;
+export default WayList;
