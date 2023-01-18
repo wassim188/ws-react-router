@@ -25,14 +25,19 @@ function Navmain({ setSearch, setRating }) {
             Movies Way
           </Navbar.Brand>
           <Nav className="me-auto">
+            <Nav.Link>
+
             <Link to="/" className="link" style={{ all: "unset" }}>
               Home
             </Link>
+            </Nav.Link>
           </Nav>
           <Nav className="me-auto">
-            <Link to="Movie" className="link" style={{ all: "unset" }}>
+            <Nav.Link>
+            <Link to="Movie"  style={{ all: "unset" }}>
               Movies
             </Link>
+            </Nav.Link>
           </Nav>
           <ReactStars
             count={10}
