@@ -25,12 +25,12 @@ function Navmain({ setSearch, setRating }) {
             Movies Way
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/" className="link">
+            <Link to="/" className="link" style={{ all: "unset" }}>
               Home
             </Link>
           </Nav>
           <Nav className="me-auto">
-            <Link to="Movie" className="link">
+            <Link to="Movie" className="link" style={{ all: "unset" }}>
               Movies
             </Link>
           </Nav>
